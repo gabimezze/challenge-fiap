@@ -29,7 +29,7 @@ export const validarCNPJ = (cnpj: string): boolean => {
 
     let tamanho: number = cnpj.length - 2;
     let numeros: string = cnpj.substring(0, tamanho);
-    let digitos: string = cnpj.substring(tamanho);
+    const digitos: string = cnpj.substring(tamanho);
     let soma: number = 0;
     let pos: number = tamanho - 7;
     for (let i = tamanho; i >= 1; i--) {
