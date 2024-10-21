@@ -257,7 +257,7 @@ body, html {
     display: inline-flex;
     font-size: 20px;
     text-align: left;
-    background-image: linear-gradient(to left,#0060a0,#b3b3b3,#ffffff, #b3b3b3, #2e6f9b);
+    background-image: linear-gradient(to left,#0b293d,#083b5e,#ffffff);
     background-clip: text;
     color: transparent;
 }
@@ -276,7 +276,7 @@ body, html {
     border-radius: 30px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image:url(../img/fundo-azul-sobre.jpg)
+    background-image:url(../src/img/fundo-azul-sobre.jpg)
 }
 
 .titulo-objetivo{
