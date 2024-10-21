@@ -1,4 +1,4 @@
-import Header from '../../components/Header/AjudaHeader';
+import Header from '../../components/Header/SobreHeader';
 import QuestionForm from '../../components/Question/QuestionForm';
 import QuestionsContainer from '../../components/Question/QuestionsContainer';
 
