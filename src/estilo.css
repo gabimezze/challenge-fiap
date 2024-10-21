@@ -1,0 +1,687 @@
+/* CABEÇALHO */                /**/                      /**/
+* {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0;
+}
+nav ul li {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 30px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a.active {
+    color: #01199e;
+    font-weight:600;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+header, nav, main, footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    align-items:center;
+    margin: 0 auto;
+    padding-left: 20%;
+    height: 9em;
+} 
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.logo-porto{
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-flex;
+    height: 40px;
+    margin-top: 10px;
+}
+.link{
+    font-size: medium;
+    font-weight:normal;
+}
+
+.link:hover {
+    color: #003e8f;
+}
+
+/* CONTEÚDO HOME */                /**/                      /**/
+
+.destacada{
+    background-image: linear-gradient(to right, rgb(2, 61, 170), rgb(0, 153, 255)); 
+    background-clip: text;
+    color: transparent;
+}
+
+.conteudo-problema{
+    font-size: 26px;
+    margin-top: 2%;
+    background-color: #fcfeff;
+    box-shadow:0 0 10px rgba(0, 79, 170, 0.5);
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.conteudo-planos-home{
+    text-align: center;
+    background-color: #fcfeff;
+    box-shadow:0 0 10px rgb(0, 79, 170, 0.5);
+    background-position: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:1%;
+    margin-bottom: 2%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+.planos-home{
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 40px;
+    color: #0064FF;
+    font-weight: 600;
+}
+.texto-mes-home{
+    font-weight: 300;
+    color: #0064FF;
+}
+
+.textos-de-efeito{
+    margin-top: 2%;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* BOTÕES */                /**/                      /**/
+.conteudo-problema a{
+    border: none; 
+    color: white; 
+    padding: 16px 24px; 
+    text-align: center; 
+    display: inline-block;
+    font-size: 30px; 
+    margin-top: 1%;
+    margin-bottom: 4%;
+    cursor: pointer; 
+    border-radius: 18px; 
+    background-image: linear-gradient(to right, rgb(2, 61, 170), rgb(0, 153, 255));
+}
+.conteudo-planos-home a{
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 30px;
+    background-color: #00AEEF;
+    border-radius: 18px;
+    margin: 4%;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+/* CONTEÚDO AJUDA */                /**/                      /**/
+.duvidasFrequentes{
+    color: #00369b;
+    text-align: left;
+    font-size:medium;
+}
+.containerDuvidas {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 35, 200, 0.4);
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.question-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+.botaoAddPergunta{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1961cc;
+    border: 1px #0e3674;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.botaoAddPergunta:hover{
+    background-color: #5184c7;
+}
+
+.question-form, input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.question-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.question-form button:hover {
+    background-color: #339ee6;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.question h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #5c5c5c;
+}
+
+.question textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.question button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #2e86f8;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.question button:hover {
+    background-color: #5184c7;
+}
+
+
+/* SOBRE NÓS */                /**/                      /**/
+
+.frase-efeito{
+    padding-top: 8%;
+    margin-left: 3%;
+    padding-right: 0;
+    padding-bottom: 0;
+    display: inline-flex;
+    font-size: 20px;
+    text-align: left;
+    background-image: linear-gradient(to left,#0060a0,#b3b3b3,#ffffff, #b3b3b3, #2e6f9b);
+    background-clip: text;
+    color: transparent;
+}
+
+.fundo-efeito{
+    grid-column: 1 / span 2; /* Ocupa 2 colunas */
+    grid-row: 1; /* Na primeira linha */
+    box-shadow:0 0 10px rgb(0, 25, 71,0.5);
+    width: 47%;
+    height: 30%;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: grid;
+    border-radius: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../img/fundo-azul-sobre.jpg)
+}
+
+.titulo-objetivo{
+    color: rgb(88, 88, 88);
+    padding-left: 21%;
+    padding-top: 4%;
+    font-size: 20px;
+}
+
+.texto-objetivo{
+    padding-left: 21%;
+    font-size: 19px;
+}
+
+.bateria-carro{
+    max-width: 100%;
+    width: 40%;
+    padding-left: 32%;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: auto;
+}
+/*PROPAGANDA*/                /**/                      /**/
+.services {
+    padding: 20px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-top: 3%;
+    font-size: 2em;
+    background-image: linear-gradient(#67caf8,#1a5ec5,#67caf8);
+    background-clip: text;
+    color: transparent;
+
+}
+.services hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40%;
+    margin-right: 0;
+    width: 20%;
+}
+
+.service-card {
+    background: rgb(241, 240, 240);
+    margin: 10px;
+    margin-top: 2%;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+.service-card:hover{
+    background: #a5c9f8;
+    transform: translateY(-10px);
+}
+.card-oleo{
+    padding-top: 8%;
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 8px;
+    padding-bottom: 2%;
+}
+
+.service-card h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.service-card p {
+    color: #464545;
+}
+
+.services footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 26%;
+    margin-top: 6%;
+}
+.services footer p{
+    text-align: left;
+}
+
+/* PLANOS E PREÇOS */                /**/                      /**/
+@media (max-width: 768px) {
+    .containerPlanos {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+@media (max-width: 480px) {
+    .containerPlanos {
+    grid-template-columns: 1fr;
+    }
+}
+
+.planos hr {
+    margin-top: 0; 
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.containerPlanos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    margin-top: 3%;
+}
+
+.planos {
+    text-align: center;
+}
+
+.plano {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 3% 10%;
+}
+
+.titulo-escolha{
+    background-image: linear-gradient(to left,#67caf8,#3c78d3,#67caf8);
+    background-clip: text;
+    color: transparent;
+}
+.plano h2 {
+    margin-bottom: 10px;
+}
+.beneficios{
+    text-align: left;
+    padding-left: 38%;
+    font-weight: 400;
+    font-size: 20px;
+}
+.preco{
+    font-size: 30px;
+    font-weight: 500;
+}
+.mes{
+    font-weight: 400;
+    color: rgb(92, 92, 92);
+}
+
+.plano a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 100px;
+    background-color: #0055b1;
+    box-shadow: inset 0 0 10px rgba(1, 54, 88, 0.8);
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.plano a:hover{
+    background-color: #4f95ff;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.8);
+    
+}
+
+.hidden {
+    display: none;
+}
+
+#payment-section {
+    margin-top: 20px;
+}
+
+#payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#payment-form label {
+    margin-top: 10px;
+}
+
+#payment-form input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* INTEGRANTES */
+
+@media (max-width: 768px) {
+    .containerIntegrantes {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+@media (max-width: 480px) {
+    .containerIntegrantes {
+    grid-template-columns: 1fr;
+    }
+}
+.containerIntegrantes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.titulo-integrantes hr{
+    margin-top: -3%;
+    margin-bottom: 1%;
+    margin-left: 40%;
+    margin-right: 0;
+    width: 20%;
+}
+.integrantes {
+    text-align: center;
+}
+
+.titulo-integrantes{
+    background-image: linear-gradient(rgb(14, 48, 158), rgb(77, 162, 241), rgb(14, 48, 158));
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 2%;
+    padding-top: 0;
+}
+.integrante h3{
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+.integrante,.repositorio{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    transition: transform 0.2s;
+    margin: 0 5rem;
+}
+.repositorio:hover{
+    transform: translateY(-10px);
+}
+.integrante:hover{
+    transform: translateY(-10px);
+}
+
+.integrante img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 7px;
+    border-radius: 50%;
+}
+
+.repositorio img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.integrante p, .repositorio p {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #060606a8;
+    margin-bottom: 6%;
+}
+
+@media (max-width: 600px) {
+    .containerIntegrantes {
+        flex-direction:initial;
+        align-items: left;
+    }
+    .integrante {
+        width: 90%;
+    }
+}
+
+/*LOGIN E CADASTRO*/            /**/                         /**/
+@media screen and (max-width: 768px) {
+    input {
+    flex: 1;
+    margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-cadastro {
+    width: 100%;
+    }
+
+    input {
+    margin-bottom: 10px;
+    }
+}
+.form-cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.form-cadastro label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.textoCadastroLogin{
+    padding-left: 16%;
+    padding-top: 0;
+}
+.facaLoginCadastro{
+    font-weight: 600;
+    color: #1961cc;
+}
+.form-cadastro div{
+    margin: 3% 0;
+    width: 100%;
+}
+.form-cadastro input[type=texto]{
+    display: block;
+    width: 50vw;
+    height: 10vh;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+    outline-color: #7b7e7b;
+    padding-left: 10px;
+}
+.form-cadastro input[type=checkbox]{
+    cursor: pointer;
+}
+.form-cadastro button[type=submit]{
+    display: block;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 0 10px rgba(1, 54, 88, 0.8);
+    background-color: #87c5ff;
+    outline-color: #7b7c7e;
+    transition: all .4s ease;
+    margin-top: 2%;
+    text-align: center;
+    cursor: pointer;
+}
+.form-cadastro button[type=submit]:hover{
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+
+    /*PAGAMENTO*/           /**/                   /**/
+    .pagamento {
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 2%;
+    }
+    
+    .pagamento h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .pagamento form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pagamento label {
+        margin-bottom: 5px;
+    }
+    
+    .pagamento input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    
+    .pagamento button {
+        background-color: #0077ff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .pagamento button:hover {
+        background-color: #0052bd;
+    }
