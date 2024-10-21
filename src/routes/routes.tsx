@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './home/index';
+import Home from './home';
 import Ajuda from './ajuda';
 import Sobre from './sobre';
 import Planos from './planosprecos'
-import Pagamento from './pagamento'
+import Pagamento from './pagamento';
 import Integrantes from './integrantes';
 import Login from './login';
 import Cadastro from './cadastro';
