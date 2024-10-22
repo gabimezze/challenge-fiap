@@ -1,21 +1,22 @@
-# React + TypeScript + Vite
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=1E90FFF&size=35&center=true&vCenter=true&width=1000&lines=+Projeto+Porto+Seguro+2024+)](https://git.io/typing-svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+### Site para Agendamento de Manutenção de Automóveis
 
-## Deploy Your Own
 
-Deploy your own Vite project with Vercel.
+### Sobre o site
+<p>Esse site foi feito com o objetivo de facilitar o chamado e agendamento de manutenções dos automóveis dos usuários, com planos que podem ser assinados para mais benefícios.<p/>
+<p>Tendo uma interface semelhante com a da Porto Seguro, com tons de azul e branco, o site é composto por 4 páginas sendo elas: </p>
+<p>
+- Home -> principal <br>
+- Planos e orçamentos -> opções de planos <br>
+- integrantes -> grupo criador do projeto <br> 
+</p>
+<p>Tendo também área de login e cadastro para acesso ao site.</p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite-react&template=vite-react)
 
-_Live Example: https://vite-react-example.vercel.app_
 
-### Deploying From Your Terminal
-
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
-```
+### Tecnologias & Ferramentas
+<div style="display: inline_block">
+<img align="center" alt="Gabi-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+<img align="center" alt="Gabi-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
