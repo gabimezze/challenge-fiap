@@ -3,7 +3,6 @@ import ServiceCard from '../../components/cards/ServiceCard';
 import trocaOleoImage from '../../img/troca-oleo.jpg';
 import freiosImage from '../../img/freios.jpg';
 import revisaoImage from '../../img/revisao.jpg';
-import '../../routes/routes'
 
 export default function Sobre () {
   return (

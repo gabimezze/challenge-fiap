@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header/HomeHeader';
 import { validarCPF, validarCNPJ } from '../../utils/validators'; 
-import '../../routes/routes'
 
 export default function Cadastro() {
   const [username, setUsername] = useState<string>('');

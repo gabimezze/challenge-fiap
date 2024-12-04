@@ -6,7 +6,6 @@ import {
   isValidExpiryDate,
   isValidCVV
 } from '../../utils/paymentValidators'; 
-import '../../routes/routes'
 
 export default function Pagamento() {
   const [nome, setNome] = useState<string>('');
