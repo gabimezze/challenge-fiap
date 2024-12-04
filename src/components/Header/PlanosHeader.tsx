@@ -18,7 +18,6 @@ export default function Header() {
           <li className="link"><a href="/integrantes">Integrantes</a></li>
         </ul>
       </nav>
-      <hr />
     </header>
   );
 };
