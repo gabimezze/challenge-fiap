@@ -2,6 +2,7 @@
 import PlanoCard from '../../components/cards/PlanoCards'; 
 import Header from '../../components/Header/PlanosHeader'; 
 import { selectPlan } from '../../utils/planPaymentUtils';
+import '../../routes/routes'
 
 export default function PlanosEPrecos()  {
 

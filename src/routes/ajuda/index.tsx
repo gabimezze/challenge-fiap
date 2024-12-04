@@ -1,6 +1,7 @@
 import Header from '../../components/Header/SobreHeader';
 import QuestionForm from '../../components/Question/QuestionForm';
 import QuestionsContainer from '../../components/Question/QuestionsContainer';
+import '../../routes/routes'
 
 export default function Ajuda() {
   return (
