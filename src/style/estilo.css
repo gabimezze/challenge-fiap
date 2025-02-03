@@ -19,11 +19,6 @@ nav ul li a{
     color: rgb(0, 0, 0);
 }
 
-nav ul li a.active {
-    color: #01199e;
-    font-weight:600;
-}
-
 @media only screen and (max-width: 600px) {
     nav ul li {
         display: inline-block;
@@ -66,8 +61,9 @@ body, html {
     font-weight:normal;
 }
 
-.link:hover {
-    color: #003e8f;
+.active {
+    font-weight: 600;
+    color:#0432c9;
 }
 
 /* CONTEÚDO HOME */                /**/                      /**/
