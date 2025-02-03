@@ -1,4 +1,4 @@
-import '../../estilo.css'; 
+import '../../style/estilo.css'; 
 import gabrielaImage from '../../img/integrante-gabriela.jpg';
 import mateusImage from '../../img/integrante-mateus.jpg.png';
 import anaImage from '../../img/integrante-ana.jpg.png'

@@ -1,5 +1,5 @@
 import AppRoutes from './routes/routes';
-import './estilo.css'; 
+import './style/estilo.css'; 
 export default function App() {
   return (
     <div className="App">
